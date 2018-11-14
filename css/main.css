@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+.panel {
+  padding: 3.75rem 0;
+  color: #6b6b6b;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.portfolio a {
+  margin-bottom: 2rem;
+}
+
+.portfolio .btn {
+  color: #a7a7a7;
+  border-color: #a7a7a7;
+}
+
+.portfolio .btn:hover {
+  color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.hero {
+  background-color: #2c3e50;
+  padding: 3.75rem 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.panel--dark {
+  background-color: #eeeeee;
+}
+
+header {
+  background-color: #2c3e50;
+  border-bottom: 1px solid #0e2135;
+}
+
+header nav a {
+  color: #7389a1;
+  transition: #fff 5s linear;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+.team button {
+  background-color: #2c3e50;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.team .card {
+  background-color: transparent;
+  border-color: transparent;
+  color: #6b6b6b;
+}
+
+.button--dark {
+  background-color: #2c3e50;
+}
+
+img {
+  padding: 0.5rem 0;
+}
+
+form {
+  padding: auto;
+  text-align: left;
+}
+
+footer ul a {
+  color: #bababa;
+}
+
+footer ul a:hover {
+  color: #757575;
+}
+
+footer {
+  color: #cbcbcb;
+}
+
+.portfolio .card {
+  margin-bottom: 2rem;
+  background-color: transparent;
+  position: relative;
+  text-align: left;
+}
+
+.portfolio .card-body {
+  background-color: #6b6b6b;
+  color: #fff;
+}
+
+.overlay {
+  opacity: 0;
+  position: absolute;
+}
+
+.overlay img {
+  margin-top: 50%;
+  margin-left:25%;
+}
+
+.portfolio .card:hover .overlay{
+  content: "";
+  opacity: 1; 
+  background: #9a9a9a;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
