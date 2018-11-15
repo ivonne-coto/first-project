@@ -67,12 +67,6 @@ header nav a:hover {
   color: #6b6b6b;
 }
 
-.team .card {
-  background-color: transparent;
-  border-color: transparent;
-  color: #6b6b6b;
-}
-
 .team .button {
   position: absolute:
 
@@ -104,11 +98,12 @@ footer {
   background-color: transparent;
   position: relative;
   text-align: left;
+  border-color: transparent;
 }
 
 .portfolio .card-body {
-  background-color: #6b6b6b;
-  color: #fff;
+  background-color: transparent;
+  color: #757575;
 }
 
 .overlay {
@@ -117,7 +112,7 @@ footer {
 }
 
 .overlay img {
-  margin-top: 50%;
+  margin-top: 25%;
   margin-left:25%;
 }
 
